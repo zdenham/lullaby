@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9C0FD4381DD2E0C500D7E3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD4371DD2E0C500D7E3B3 /* AppDelegate.swift */; };
-		9C0FD43A1DD2E0C500D7E3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD4391DD2E0C500D7E3B3 /* ViewController.swift */; };
 		9C0FD43D1DD2E0C500D7E3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FD43B1DD2E0C500D7E3B3 /* Main.storyboard */; };
 		9C0FD4401DD2E0C500D7E3B3 /* lullaby.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD43E1DD2E0C500D7E3B3 /* lullaby.xcdatamodeld */; };
 		9C0FD4421DD2E0C500D7E3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FD4411DD2E0C500D7E3B3 /* Assets.xcassets */; };
 		9C0FD4451DD2E0C500D7E3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FD4431DD2E0C500D7E3B3 /* LaunchScreen.storyboard */; };
+		9C0FD44D1DD2E63000D7E3B3 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C0FD4341DD2E0C500D7E3B3 /* lullaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lullaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0FD4371DD2E0C500D7E3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C0FD4391DD2E0C500D7E3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C0FD43C1DD2E0C500D7E3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C0FD43F1DD2E0C500D7E3B3 /* lullaby.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lullaby.xcdatamodel; sourceTree = "<group>"; };
 		9C0FD4411DD2E0C500D7E3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0FD4441DD2E0C500D7E3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C0FD4461DD2E0C500D7E3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				9C0FD4371DD2E0C500D7E3B3 /* AppDelegate.swift */,
-				9C0FD4391DD2E0C500D7E3B3 /* ViewController.swift */,
 				9C0FD43B1DD2E0C500D7E3B3 /* Main.storyboard */,
 				9C0FD4411DD2E0C500D7E3B3 /* Assets.xcassets */,
 				9C0FD4431DD2E0C500D7E3B3 /* LaunchScreen.storyboard */,
 				9C0FD4461DD2E0C500D7E3B3 /* Info.plist */,
 				9C0FD43E1DD2E0C500D7E3B3 /* lullaby.xcdatamodeld */,
+				9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */,
 			);
 			path = lullaby;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C0FD43A1DD2E0C500D7E3B3 /* ViewController.swift in Sources */,
 				9C0FD4401DD2E0C500D7E3B3 /* lullaby.xcdatamodeld in Sources */,
 				9C0FD4381DD2E0C500D7E3B3 /* AppDelegate.swift in Sources */,
+				9C0FD44D1DD2E63000D7E3B3 /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
