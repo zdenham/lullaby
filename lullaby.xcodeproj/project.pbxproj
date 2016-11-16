@@ -13,6 +13,7 @@
 		9C0FD4421DD2E0C500D7E3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FD4411DD2E0C500D7E3B3 /* Assets.xcassets */; };
 		9C0FD4451DD2E0C500D7E3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FD4431DD2E0C500D7E3B3 /* LaunchScreen.storyboard */; };
 		9C0FD44D1DD2E63000D7E3B3 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */; };
+		9C8730A41DDC195600376E74 /* AccellerometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8730A31DDC195600376E74 /* AccellerometerView.swift */; };
 		BD47A3B71DD90F5400CC6081 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47A3B61DD90F5400CC6081 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		9C0FD4441DD2E0C500D7E3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C0FD4461DD2E0C500D7E3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		9C8730A31DDC195600376E74 /* AccellerometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccellerometerView.swift; sourceTree = "<group>"; };
 		BD47A3B61DD90F5400CC6081 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				9C0FD43E1DD2E0C500D7E3B3 /* lullaby.xcdatamodeld */,
 				9C0FD44C1DD2E63000D7E3B3 /* AudioViewController.swift */,
 				BD47A3B61DD90F5400CC6081 /* MainViewController.swift */,
+				9C8730A31DDC195600376E74 /* AccellerometerView.swift */,
 			);
 			path = lullaby;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				9C0FD4381DD2E0C500D7E3B3 /* AppDelegate.swift in Sources */,
 				9C0FD44D1DD2E63000D7E3B3 /* AudioViewController.swift in Sources */,
 				BD47A3B71DD90F5400CC6081 /* MainViewController.swift in Sources */,
+				9C8730A41DDC195600376E74 /* AccellerometerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
